@@ -21,10 +21,10 @@ const FACTORS = [0.2126, 0.7152, 0.0722];
 const PARTS = [0, 2, 4];
 const VERY_DARK = 16;
 
-const defaultHighlight = '#D90C51'; // '#D90C51'; // #999
+const defaultHighlight = '#42A49E'; // '#42A49E'; // #999
 
 function getHighlight (uiHighlight: string | undefined): string {
-  return (uiHighlight || defaultHighlight);
+  return (defaultHighlight || uiHighlight);   // might change
 }
 
 function countBrightness (uiHighlight: string | undefined): number {
