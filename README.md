@@ -155,7 +155,7 @@ The main advantage of using Desktop App is that it by default stores encrypted a
 Local storage is susceptible to attacks using XSS (Cross-Site Scripting). There's no such risk when with files stored on disk.
 
 The desktop app uses the [Electron](https://www.electronjs.org/) framework. It provides the same features as web app, the only difference
-being different account storage.
+being different account storage. 
 
 The accounts are stored in the following directories:
 * Mac: `~/Library/Application Support/polkadot-apps/polkadot-accounts`
